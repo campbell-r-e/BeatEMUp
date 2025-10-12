@@ -1,0 +1,19 @@
+# Godot-specific
+.export/
+.import/
+mono/
+data_*/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*.tmp
+*.bak
+*.old
+*.orig
+
+# VSCode / JetBrains
+.vscode/
+.idea/
