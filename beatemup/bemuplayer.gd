@@ -36,5 +36,9 @@ func _process(delta):
 
 
 func _on_attack_region_body_entered(body: Node2D) -> void:
-	print("Hit target");
+	if body.is_in_group("enemy"):
+		print("hit target")
+		var dir = self.global_position -body.global_position;
+		body.hit
+		
 	pass # Replace with function body.
