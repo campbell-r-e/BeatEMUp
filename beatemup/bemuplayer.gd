@@ -33,3 +33,8 @@ func _process(delta):
 
 	move_and_slide()
 	pass
+
+
+func _on_attack_region_body_entered(body: Node2D) -> void:
+	print("Hit target");
+	pass # Replace with function body.
